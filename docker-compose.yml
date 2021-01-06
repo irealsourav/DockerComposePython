@@ -1,0 +1,5 @@
+version: "3.9"
+services:
+  selenium:
+    build: .
+    entrypoint: "pipenv run python3 main.py"
